@@ -1,6 +1,7 @@
 'use strict';
 
-const p = require('./payment').createPayment();
+const payment = require('./lib/payment').createPayment();
 const paymentStrategy = require('payment-strategy');
 
-p.use(new paymentStrategy);
+payment.use(new paymentStrategy('fuck'));
+payment.registerCreditCard('fuck', {});
