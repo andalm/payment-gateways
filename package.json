@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/andalm/payment-gateways/issues"
   },
-  "homepage": "https://github.com/andalm/payment-gateways#readme"
+  "homepage": "https://github.com/andalm/payment-gateways#readme",
+  "dependencies": {
+    "payment-strategy": "^1.0.2"
+  }
 }
