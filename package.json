@@ -1,6 +1,6 @@
 {
   "name": "payment-gateways",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "This package uses diferent strategies for diferent payment providers",
   "main": "index.js",
   "scripts": {
